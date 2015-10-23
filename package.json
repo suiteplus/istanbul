@@ -1,6 +1,6 @@
 {
-  "name": "istanbul",
-  "version": "0.4.0",
+  "name": "istanbul-sp",
+  "version": "0.4.0-beta",
   "description": "Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale",
   "keywords": [
     "coverage",
@@ -83,7 +83,7 @@
     "docs": "npm install yuidocjs && node node_modules/yuidocjs/lib/cli.js ."
   },
   "bin": {
-    "istanbul": "./lib/cli.js"
+    "istanbulsp": "./lib/cli.js"
   },
   "files": [
     "index.js",
@@ -91,7 +91,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/gotwarlost/istanbul.git"
+    "url": "git://github.com/suiteplus/istanbul-sp.git"
   },
   "dependencies": {
     "abbrev": "1.0.x",
